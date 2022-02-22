@@ -1,0 +1,47 @@
+
+{
+    "data": [
+        {
+            "question": "Have you given birth within 14 calendar days from the date of birth?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "Child/children born within 14 calendar days"
+        },
+        {
+            "question": "Are your child/children born in Singapore?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "Child/children must be born in Singapore"
+        },
+        {
+            "question": "Are you the biological parent of the child/children?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "Applicant/Applicants must be the biological parent of the child/children"
+        },
+        {
+            "question": "Does you and your spouse have Singpass/Myinfo accounts?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "Both parents have a Singpass account"
+        },
+        {
+            "question": "Did you have your marriage registered in Singapore at the time of child's birth?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "Parents’ marriage is registered in Singapore at the time of child’s birth"
+        },
+        {
+            "question": "Are you or your spouse a Singapore Citizen?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "One parent must be a Singapore citizen"
+        },
+        {
+            "question": "Do you acknowledge that the baby is born at any of the hospitals gazetted as birth registration centres?",
+            "choices": ["Yes", "No"],
+            "answer": "Yes",
+            "explanation": "The baby is born at any of the hospitals gazetted as birth registration centres"
+        }
+    ]
+}
