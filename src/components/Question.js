@@ -38,6 +38,7 @@ const Question = ({ data, onAnswerUpdate, numberofQuestions, activeQuestion, onS
         <div className='card-content'>
             {error && <div className='error_msg'><span className='alert_icon'><FiAlertTriangle/></span> {error} </div>}
             <div className='content'>
+                <h4><span style={{color: "#1C76D5"}}>Questions: {activeQuestion+1}/{numberofQuestions}</span></h4>
                 <h2 className="mb-5">{data.question}</h2>
                 <div className='control' ref={radiosWrapper}>
                     {data.choices.map((choice, i) => (

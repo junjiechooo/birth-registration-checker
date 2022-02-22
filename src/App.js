@@ -73,15 +73,9 @@ const App = () => {
       { step === 3 && <End 
         results={answers}
         data={quesData.data}
-        // onInfoCheck={() => setShowModal(true)}
         onReset={resetClickHandler}
       />}
         
-      {/* {showModal && <Modal 
-        onClose={() => setShowModal(false)}
-        results={answers}
-        data={quesData.data} 
-      />} */}
     </div>
     </Page>
   );
