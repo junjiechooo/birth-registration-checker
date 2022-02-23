@@ -30,6 +30,7 @@ const device = {
 
 const Page = styled.div`
   margin: auto;
+  
   @media ${device.mobile} { 
     min-width: 320px;
   }

@@ -50,10 +50,6 @@ const End = ({ results, data, onReset, onInfoCheck }) => {
                     <div className='message'>
                         <h4 className='messageHeader'>To be eligible for the birth registration application, the following requirements must be fulfilled:</h4>
                         <ul className=''>
-                            {/* <li>One parent is a Singapore citizen</li>
-                            <li>Both parents have a Singpass account</li>
-                            <li>Parents’ marriage is registered in Singapore at the time of child’s birth</li>
-                            <li>The baby is born at any of the hospitals gazetted as birth registration centres</li> */}
                             <li>{explanation.map((reason) => (
                                 <li>{reason}</li>
                             ))}</li>
