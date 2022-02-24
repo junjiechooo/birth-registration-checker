@@ -43,11 +43,12 @@ label.radio {
   cursor: pointer;
   border: 0.5px solid #1c76D5;
   border-radius: 5px;
+  font-size: 16px;
 }
 
- input[type='radio']:checked:after {
-  background-color: #81BFFF;
-  border: 0.5px solid red;
+label.radio:hover {
+  background-color: #FFFFFF;
+  border: 0.5px solid #1C76D5;
 }
 
 label.radio+.radio{
@@ -78,6 +79,7 @@ label.radio input {
   transition: all 0.2s;
   vertical-align: middle;
   padding: 10px;
+  font-size: 16px;
 }
 
 .button:hover{
@@ -153,6 +155,13 @@ label.radio input {
   text-align: left;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 375px)  {
+  .message {
+    padding: 20px;
+  }
+  
 }
 
 .message_success {

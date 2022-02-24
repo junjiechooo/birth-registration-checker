@@ -33,7 +33,7 @@ const End = ({ results, data, onReset, onInfoCheck }) => {
 
                 {correctAnswers === data.length ? (
                     <>
-                    <img src={require("../img/happy_announcement.png")} alt="success" width="400" height="300"/>
+                    <img src={require("../img/happy_announcement.png")} alt="success" width="300" height="200"/>
                     <h1 className='success'>Congratulation, you are ELIGIBLE!</h1>
                     <div className='message_success'>
                     <p>You fulfilled {correctAnswers} of {data.length} criteria.</p>
@@ -44,7 +44,7 @@ const End = ({ results, data, onReset, onInfoCheck }) => {
                     </>
                 ) : (
                     <>
-                    <img src={require("../img/feeling_blue.png")} alt="fail" width="400" height="300"/>
+                    <img src={require("../img/feeling_blue.png")} alt="fail" width="300" height="200"/>
                     <h1 className='fail'>Sorry, you are NOT ELIGIBLE!</h1>
                     <p>You fulfilled {correctAnswers} of {data.length} criteria.</p>
                     <div className='message'>
