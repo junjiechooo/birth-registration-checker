@@ -11,7 +11,7 @@
             "question": "Are your child/children born in Singapore?",
             "choices": ["Yes", "No"],
             "answer": "Yes",
-            "explanation": "Child/children must be born in Singapore"
+            "explanation": "If the child/children are born overseas, the user should apply for a birth certificate where the child is born. They can however apply for Singapore citizenship using ICA’s e-service."
         },
         {
             "question": "Are you the biological parent of the child/children?",
